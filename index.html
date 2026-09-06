@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.165.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rules Dnscontrol</title>
+    
+    <meta name="description" content="Bazel-aware DNSControl configuration packaging" />
+     
+    <meta name="github-repo" content="https://github.com/alwaldend/src" />
+      
+    <link rel="stylesheet" href="/scss/landing.min.757a78e91e368eeac2f0cb4833153359a2f027c8e1ec3cf51681f3f623b018da.css" />
+     
+  </head>
+  <body>
+    <header class="landing-topbar">
+      <a class="landing-brand" href="/">Rules Dnscontrol</a>
+      <nav class="landing-nav" aria-label="Project links">
+        
+        <a href="https://alwaldend.com/docs/projects/rules_dnscontrol/">Docs</a>
+        
+        <a href="https://github.com/alwaldend/src">Github</a>
+        
+      </nav>
+    </header>
+    <main class="landing-container">
+      <div class="landing-header">
+        <h1>Rules Dnscontrol</h1>
+        <div class="btn-group" role="group" aria-label="Project links">
+          
+          <a class="btn btn-outline-primary" href="https://alwaldend.com/docs/projects/rules_dnscontrol/">Docs</a>
+          
+          <a class="btn btn-outline-primary" href="https://github.com/alwaldend/src">Github</a>
+          
+        </div>
+      </div>
+      
+      <p class="landing-description">Bazel-aware DNSControl configuration packaging</p>
+       
+      <div class="landing-readme"><p><code>rules_dnscontrol</code> packages a DNSControl JavaScript entrypoint together with
+its record configuration files and emits a generated <code>requires.json</code> manifest
+of relative paths matching the Bazel runfiles tree. Record symlinks retain a
+<code>.json</code> suffix so DNSControl parses them as JSON. Load the manifest with
+<code>require()</code> and load each listed path with another <code>require()</code> call;
+DNSControl&rsquo;s JavaScript loader does not implement CommonJS <code>module.exports</code>.</p>
+</div>
+    </main>
+    <footer class="landing-footer">
+      <p>Generated from the project README.</p>
+    </footer>
+  </body>
+</html>
